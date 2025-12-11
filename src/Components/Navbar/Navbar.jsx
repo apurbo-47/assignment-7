@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
     </button>
   </div>
-   <div className="w-14 rounded-full mr-36 ">
+   <div className="w-14 rounded-full mr-20 ">
           <img
             alt="Tailwind CSS Navbar component"
             src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
