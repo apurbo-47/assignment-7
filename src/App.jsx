@@ -2,7 +2,11 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Bids from './Components/Bids/Bids'
+import Footer from './Components/Footer/Footer'
+import Heading from './Components/Heading/Heading'
 import Navbar from './Components/Navbar/Navbar'
+
+
 
 function App() {
   
@@ -13,8 +17,14 @@ function App() {
 
       <Banner></Banner>
 
-      <Bids></Bids>
+      <Heading></Heading>
 
+
+      <Bids>
+       
+      </Bids>
+
+      <Footer></Footer>
 
 
       

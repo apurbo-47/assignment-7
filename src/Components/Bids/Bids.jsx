@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Bid from './Bid';
 
 const Bids = () => {
 
@@ -13,7 +14,13 @@ const Bids = () => {
 
     return (
         <div>
-            
+             <div className="all-blogs grid grid-cols-2">
+                {
+                    bids.map((bid) => (
+                    <Bid key={bid.id} bid={bid} ></Bid>
+                ))
+                }
+              </div>
         </div>
     );
 };
