@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Vintage Camera",
+        "description": "Classic film camera in good condition.",
+        "currentBidPrice": 120.5 ,
+        "timeLeft": "2h 15m",
+        "bidsCount": 8,
+        "image": "https://ibb.co.com/dw9DPrHr"
+    },
+    {
+        "id": 2,
+        "title": "Gaming Laptop",
+        "description": "High-performance laptop with RTX graphics.",
+        "currentBidPrice": 950.0,
+        "timeLeft": "5h 30m",
+        "bidsCount": 14,
+        "image": "https://ibb.co.com/8D1nB1Kh"
+    },
+    {
+        "id": 3,
+        "title": "Smart Watch",
+        "description": "Waterproof smart watch with heart rate monitor.",
+        "currentBidPrice": 75.25,
+        "timeLeft": "1h 45m",
+        "bidsCount": 5,
+        "image": "https://ibb.co.com/gMS1ksZ6"
+    },
+    {
+        "id": 4,
+        "title": "Bluetooth Speaker",
+        "description": "Portable speaker with powerful bass.",
+        "currentBidPrice": 40.0,
+        "timeLeft": "3h 10m",
+        "bidsCount": 12,
+        "image": "https://ibb.co.com/PvqNY3PS"
+    },
+    {
+        "id": 5,
+        "title": "Mountain Bike",
+        "description": "Durable bike suitable for off-road trails.",
+        "currentBidPrice": 350.0,
+        "timeLeft": "7h 20m",
+        "bidsCount": 9,
+        "image": "https://ibb.co.com/8DbZBNhs"
+    },
+    {
+        "id": 6,
+        "title": "LED Monitor",
+        "description": "27-inch full HD monitor with slim bezels.",
+        "currentBidPrice": 180.75,
+        "timeLeft": "4h 5m",
+        "bidsCount": 6,
+        "image": "https://ibb.co.com/whJNgKGS"
+    }
+]
