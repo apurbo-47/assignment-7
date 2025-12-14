@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Bid from './Bid';
 
-const Bids = () => {
+const Bids = ({handleButtonClick}) => {
 
     const [bids, setBids] = useState ([])
 
@@ -10,14 +10,14 @@ const Bids = () => {
         .then(res => res.json())
         .then (data => setBids (data))
     },[])
-    console.log (bids);
+    // console.log (bids);
 
     return (
         <div>
-             <div className="all-blogs grid grid-cols-2">
+             <div className="all-blogs grid grid-cols-1">
                 {
                     bids.map((bid) => (
-                    <Bid key={bid.id} bid={bid} ></Bid>
+                    <Bid key={bid.id} bid={bid} handleButtonClick={handleButtonClick} ></Bid>
                 ))
                 }
               </div>
