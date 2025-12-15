@@ -3,7 +3,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 
-const Bid = ({bid, handleButtonClick}) => {
+const Bid = ({bid, handleButtonClick, handleTotalBids, handleRemoveItem}) => {
     // console.log (bid);
     return (
       <div>
@@ -15,7 +15,11 @@ const Bid = ({bid, handleButtonClick}) => {
     <h2 className='text-[#0E2954] w-40'> {bid.description}</h2>
       <p className='ml-10 '>{bid.currentBidPrice}</p> 
       <p className='ml-5 '>{bid.timeLeft}</p>  
-      <button className='mr-24' onClick={() => handleButtonClick(bid) } >
+      <button className='mr-24' onClick={() => {
+        handleButtonClick(bid),
+        handleTotalBids(bid.currentBidPrice),
+        handleRemoveItem(bid.id)
+      } }>
          <FaRegHeart />
       </button>
   </div>
