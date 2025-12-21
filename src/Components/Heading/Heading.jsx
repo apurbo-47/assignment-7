@@ -6,7 +6,7 @@ const Heading = () => {
              <h2 className='text-[#0E2954] text-3xl font-semibold mb-5'>Active Auctions</h2>
             <p className='text-black text-xl font-normal mb-8'>Discover and bid on extraordinary items</p>
 
-            <div className="card  bg-white text-black w-[51.4%]">
+            <div className="card  bg-white text-black w-[51%]">
   <div className="card-body grid grid-flow-col">
     <h4 className="card-title">Items</h4>
     <div className='flex flex-row '>
